@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Business Insider",
+  "version": "1.0",
+  "description": "An extension that allows you to freely read the context that actually matters",
+  "permissions": ["activeTab"],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon-34.png"
+  },
+  "content_scripts": [
+      {
+          "matches": ["https://www.businessinsider.com/*"],
+          "js": ["content.js"],
+          "run_at": "document_idle"
+      }
+  ]
+}

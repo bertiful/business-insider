@@ -1,6 +1,6 @@
-# Business Insider
+# Business Insider Premium
 
-A Chrome extension that allows you to freely read the Business Insider context that actually matters.
+A Chrome extension that allows you to freely read the Business Insider Premium content.
 
 - Click the green **"<> Code"** button and then **Download ZIP**.
 - Save the zip to a new empty folder on your machine.
